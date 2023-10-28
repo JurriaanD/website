@@ -55,8 +55,8 @@ Note also that \(\langle F^N \rangle\) is a random variable since it's made up o
 
 $$
 \begin{array}{l}
-E[\langle F^N \rangle] & = & E \left[ (b-a) \dfrac{1}{N } \sum_{i=0}^{N-1} f(x_i)\right],\\
-& = & (b-a)\dfrac{1}{N } E[f(x)],\\
+E[\langle F^N \rangle] & = & E \left[ (b-a) \dfrac{1}{N} \sum_{i=0}^{N-1} f(x_i)\right],\\
+& = &(b-a)\dfrac{1}{N} \sum_{i=0}^{N-1} E[f(x)],\\
 & = &(b-a)\dfrac{1}{N} \sum_{i=0}^{N-1} \int_a^b f(x)pdf(x)\:dx\\
 & = & \dfrac{1}{N} \sum_{i=0}^{N-1} \int_a^b f(x)\:dx,\\
 &=& \int_a^b f(x)\:dx,\\
